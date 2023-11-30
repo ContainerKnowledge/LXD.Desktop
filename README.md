@@ -14,3 +14,9 @@ https://discuss.linuxcontainers.org/t/gui-in-virtual-machines-vms/9223
 
 install:  
 `sudo apt install virt-viewer`
+
+# launch()
+`lxc launch images:ubuntu/22.04/desktop ubuntu --vm -c limits.cpu=4 -c limits.memory=4GiB --console=vga`
+
+# start()
+`lxc start ubuntu --console=vga`
