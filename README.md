@@ -11,3 +11,6 @@ https://discuss.linuxcontainers.org/t/gui-in-virtual-machines-vms/9223
 >
 >Install virt-viewer (remote-viewer) or spice-gtk-client (spicy) on your client system.
 >Login with: `lxc console --type=VGA`
+
+install:
+`sudo apt install virt-viewer`
